@@ -1,0 +1,16 @@
+<app-areachart></app-areachart>
+<br>
+<br>
+<div fxLayout="row" fxLayoutGap="20px" fxLayoutAlign="space-between center" class="stats-cards">
+    <mat-card fxFlex="25" style="background-color: rgba(0, 255, 0,0.15);" ><app-cards [name]="'Total users'" [val]="'180'" ></app-cards></mat-card>  
+    <mat-card fxFlex="25" style="background-color: rgba(241, 201, 20, .15); color: rgb(255, 166, 0);"><app-cards [name]="'Active users'" [val]="'100'"></app-cards></mat-card>
+    <mat-card fxFlex="25" style="background-color: rgba(247, 91, 29, .15); color: rgba(247, 91, 29, 1);"><app-cards [name]="'New users'" [val]="'30'"></app-cards></mat-card>
+    <mat-card fxFlex="25" style="background-color: rgba(98, 43, 250, .15); color: rgba(98, 43, 250, 1);"><app-cards [name]="'Reffrals'" [val]="'40'"></app-cards></mat-card>
+</div>
+<br>
+<br>
+<app-table [size]="[5,10,20]"></app-table>
+<br>
+<br>
+
+    <app-pie></app-pie>
